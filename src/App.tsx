@@ -1,15 +1,17 @@
-import Navbar from "./components/Navbar"
-import Home from "./components/Home"
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
 
 function App() {
   return (
     <div>
       <div className="border solid p-5 md:px-[15%]">
-      <Navbar/>
+        <Navbar />
+        <Home />
       </div>
-      <Home/>
+      <About />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

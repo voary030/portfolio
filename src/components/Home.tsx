@@ -8,7 +8,7 @@ const Home = () => {
     md:flex-row justify-center items-center md:my-32 my-10"
         >
             <div className="flex flex-col">
-                <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0">
+                <h1 className="text-4xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0">
                     Bonjour <br/> 
                     je suis {" "} <span className="text-accent">Voarydev</span>
                 </h1>
@@ -25,9 +25,9 @@ const Home = () => {
             <div className="md:ml-60">
                 <img className="w-50 h-50 object-cover border-8 border-accent shadow-xl md:w-96 md:h-96"
                 style={{
-                    borderRadius: "30% 70% 70% 30% / 67% 62% 38% 33%"
+                    borderRadius: "57% 43% 54% 46% / 48% 73% 27% 52% "
                 }} 
-                src="src/assets/img.jpg" alt="" />
+                src="src/assets/img.png" alt="" />
             </div>
         </div>
     );
